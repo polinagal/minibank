@@ -1,0 +1,79 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background:#efefef;
+
+    /*color: #323232;*/
+}
+
+::-webkit-input-plceholder {
+    color:    #b2b2b2;
+}
+
+input[type=text], input[type=password], input[type="date"], select{
+    font-size:13px;
+    padding:10px;
+    border:1px solid#ccc;
+    outline:none;
+    width:100%;
+    margin:8px 0;
+
+}
+input[type=submit]{
+    border:1px solid#e64b3b;
+    background:#e64b3b;
+    color:#fff;
+    padding:10px 25px;
+    font-size:13px;
+    margin-top:5px;
+}
+input[type=submit]:hover{
+    border:1px solid#db3b2b;
+    background:#db3b2b;
+    color:#fff;
+}
+
+button{
+    border:1px solid#db3b2b;
+    border-radius: 3px;
+    background:#db3b2b;
+    color:#fff;
+
+    font-size:16px;
+    margin-top:5px;
+
+    text-align: center;
+    font-style: normal;
+
+    width: 100px;
+    height: 40px;
+}
+
+.bigbtn{
+    border:1px solid#db3b2b;
+    border-radius: 3px;
+    background:#db3b2b;
+    color:#fff;
+
+    font-size:14px;
+    margin-top:5px;
+
+    text-align: center;
+    font-style: normal; 
+
+    width: 100px;
+    height: 70px;
+
+
+}
+
+button:hover{
+    border:1px solid#99291e;
+    background:#99291e;
+    color:#fff;
+}
+
+p{
+
+    font-size:13px;
+    padding-top:10px;
+}
